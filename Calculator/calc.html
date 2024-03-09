@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <input type="text" id="a">
+    <hr>
+    <button onclick="ab()">CALCULATE</button>
+    <table>
+        <tr class="s">
+            <td onclick="aclr()" class="a aclr">clr</td>
+            <td onclick="aCAN()" class="a aCAN">CAN</td>
+            <td onclick="amod()" class="a amod">%</td>
+            <td  onclick="adiv()" class="a adiv">/</td>
+        </tr>
+        <tr class="s">
+            <td onclick="a9()" class="a a9">9</td>
+            <td onclick="a8()" class="a a8">8</td>
+            <td onclick="a7()" class="a a7">7</td>
+            <td  onclick="amul()" class="a amul">*</td>
+        </tr>
+        <tr class="s">
+            <td onclick="a6()" class="a a6">6</td>
+            <td onclick="a5()" class="a a5">5</td>
+            <td onclick="a4()" class="a a4">4</td>
+            <td  onclick="asup()" class="a asup">-</td>
+        </tr>
+        <tr class="s">
+            <td onclick="a3()" class="a a3">3</td>
+            <td onclick="a2()" class="a a2">2</td>
+            <td onclick="a1()" class="a a1">1</td>
+            <td  onclick="aadd()" class="a aadd">+</td>
+            <tr class="s">
+                <td onclick="adot()" class="a adot">.</td>
+                <td onclick="a0()" class="a a0">0</td>
+                <td onclick="aeq()" class="a aeq" colspan="2">=</td>
+    
+        </tr>
+    
+    </table>
+    <script src="calc.js"></script>
+</body> 
+</html>
